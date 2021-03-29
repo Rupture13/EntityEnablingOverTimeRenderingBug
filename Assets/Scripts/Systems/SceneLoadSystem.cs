@@ -31,6 +31,8 @@ public class SceneLoadSystem : SystemBase
     {
         base.OnStartRunning();
 
+        //Load subscene
+        //Subscene is found by a tag that is addded to it in entity conversion time
         var sceneEntities = m_sceneQuery.ToEntityArray(Allocator.Temp);
         var sceneEntity = sceneEntities.Length == 1 ? sceneEntities[0] : Entity.Null;
 
@@ -41,26 +43,29 @@ public class SceneLoadSystem : SystemBase
         {
             loaderData.IsProcessing = true;
             loaderData.ProcessingIndex = -1;
-        }).Schedule();
+        }).Run();
     }
 
     protected override void OnUpdate()
     {
+        //Don't do anything if there's no entities to enable
         if (m_toEnableEntityGroupsQuery.CalculateEntityCount() == 0) { return; }
 
+        //Gather data from loadingstatus singleton
         var loadingStatus = GetSingleton<SceneLoadData>();
         var processingIndex = loadingStatus.ProcessingIndex;
         var isProcessing = loadingStatus.IsProcessing;
 
+        //Retrieve list of entities to enable
         if (isProcessing && processingIndex == -1)
         {
-            Debug.Log("Preworky");
             m_toEnableEntities = m_toEnableEntityGroupsQuery.ToEntityArray(Allocator.Persistent);
 
             processingIndex = 0;
         }
 
-
+        //Enable entity of current processingindex
+        //(using EntityManager.SetEnabled, so entities in the LinkedEntityGroup will be enabled too)
         if (isProcessing && processingIndex > -1)
         {
             var e = m_toEnableEntities[processingIndex];
@@ -68,9 +73,12 @@ public class SceneLoadSystem : SystemBase
             EntityManager.SetEnabled(e, true);
             Debug.LogWarning($"Processing progress: {processingIndex + 1} of {m_toEnableEntities.Length}.\nEntity {e.Index}v{e.Version}");
 
-            processingIndex = (processingIndex + 1);
+            ++processingIndex;
 
-            if (math.abs(processingIndex) == m_toEnableEntities.Length)
+            //When all to-enable entities are processed,
+            //set data to stop the system from trying to process any more
+            //and clean up NativeArray
+            if (processingIndex == m_toEnableEntities.Length)
             {
                 Debug.Log("Processing done");
                 processingIndex = -1;
@@ -80,6 +88,7 @@ public class SceneLoadSystem : SystemBase
             }
         }
 
+        //Set possibly modified loadingstatus data
         SetSingleton(new SceneLoadData { IsProcessing = isProcessing, ProcessingIndex = processingIndex });
     }
 }
