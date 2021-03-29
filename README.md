@@ -21,7 +21,7 @@ Important package versions include:
 "com.unity.rendering.hybrid":                  "0.11.0-preview.42",
 "com.unity.scriptablebuildpipeline":           "1.16.1",
 ```
-<br>*(other package versions can be viewed in the `/Packages/manifest.json` file)*
+*(other package versions can be viewed in the `/Packages/manifest.json` file)*
 
 This project also uses the **Hybrid Renderer V2**. <br>
 *(this is enabled by adding `ENABLE_HYBRID_RENDERER_V2` to the Scripting Define symbols in the project's Player settings)*
