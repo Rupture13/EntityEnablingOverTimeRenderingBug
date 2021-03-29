@@ -1,0 +1,2358 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-StickyLock" (connect: 0.00s, validation: 0.01s, handshake: 0.84s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [2021326 8:45:44] Next license update check is after 2021-03-26T09:07:02
+
+
+LICENSE SYSTEM [2021326 8:45:44] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2020.1/staging' branch; Version is '2020.1.17f1 (9957aee8edc2) revision 10049454'; Using compiler version '192227905'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16301 MB
+[Licensing::Module] Serial number assigned to: "F4-EUEY-YA9R-M3T8-ZW73-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/EntityEnablingOverTimeRenderingBug
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59310
+Successfully changed project path to: D:/Projects/EntityEnablingOverTimeRenderingBug
+D:/Projects/EntityEnablingOverTimeRenderingBug
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 96.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.1.17f1 (9957aee8edc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/EntityEnablingOverTimeRenderingBug/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013626 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Registering precompiled user dll's ...
+Registered in 0.265566 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 169ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.202 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.6 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 6054.
+Total: 4.425000 ms (FindLiveObjects: 0.647500 ms CreateObjectMapping: 0.561300 ms MarkObjects: 3.020300 ms  DeleteObjects: 0.195000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.019 ms
+	Integration:            2.146 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       36.242 ms
+	Total Operation Time:   40.410 ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+ -> (target hash: 'e5ff6dc8d86397548e714105669caff3') in 5.936492 seconds
+  Import took 5.948033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SceneDependencyCache/e57102aa7778cebd2afcda69739db880.sceneWithBuildSettings
+  artifactKey: Guid(e57102aa7778cebd2afcda69739db880) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/e57102aa7778cebd2afcda69739db880.sceneWithBuildSettings using Guid(e57102aa7778cebd2afcda69739db880) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/Managers.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/Managers.unity'
+	Deserialize:            0.372 ms
+	Integration:            0.203 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       34.712 ms
+	Total Operation Time:   35.292 ms
+ -> (target hash: '4bb4853bb6e6fb6f70c5503f91a26a7c') in 0.086618 seconds
+  Import took 0.097238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029151 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.276 ms
+	Integration:            0.818 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       27.352 ms
+	Total Operation Time:   29.449 ms
+ -> (target hash: '428eefe2e93e7d97efa9b265125ed77f') in 0.077344 seconds
+  Import took 0.088839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SceneDependencyCache/e57102aa7778cebd2afcda69739db880.sceneWithBuildSettings
+  artifactKey: Guid(e57102aa7778cebd2afcda69739db880) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/e57102aa7778cebd2afcda69739db880.sceneWithBuildSettings using Guid(e57102aa7778cebd2afcda69739db880) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/Managers.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/Managers.unity'
+	Deserialize:            0.313 ms
+	Integration:            0.474 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       37.149 ms
+	Total Operation Time:   37.940 ms
+ -> (target hash: '1b67e983590a995a540ae9ada3bdcdb6') in 0.066045 seconds
+  Import took 0.075883 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013929 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 173ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Registering precompiled user dll's ...
+Registered in 0.310266 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 168ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6065.
+Total: 4.654200 ms (FindLiveObjects: 0.586500 ms CreateObjectMapping: 0.325700 ms MarkObjects: 3.589100 ms  DeleteObjects: 0.152000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013579 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 171ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.894 seconds
+Registering precompiled user dll's ...
+Registered in 0.316593 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6073.
+Total: 4.454200 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.276600 ms MarkObjects: 3.545700 ms  DeleteObjects: 0.155100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 706.121150 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.778 ms
+	Integration:            0.913 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       36.060 ms
+	Total Operation Time:   38.754 ms
+ -> (target hash: 'e271b98c3cb046845cdb0a84a78c8f65') in 0.514116 seconds
+  Import took 0.527250 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013578 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 167ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.012 seconds
+Registering precompiled user dll's ...
+Registered in 0.288146 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 150ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6081.
+Total: 5.108400 ms (FindLiveObjects: 0.638600 ms CreateObjectMapping: 0.333800 ms MarkObjects: 3.960600 ms  DeleteObjects: 0.174000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1337.722951 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.919 ms
+	Integration:            0.955 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       24.227 ms
+	Total Operation Time:   27.105 ms
+ -> (target hash: '428eefe2e93e7d97efa9b265125ed77f') in 0.502182 seconds
+  Import took 0.515426 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013241 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 136ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.875 seconds
+Registering precompiled user dll's ...
+Registered in 0.273859 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6089.
+Total: 4.776900 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.380900 ms MarkObjects: 3.654100 ms  DeleteObjects: 0.179100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.484207 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.834 ms
+	Integration:            0.786 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       36.844 ms
+	Total Operation Time:   39.468 ms
+ -> (target hash: '1eddc460e4c48dfe06bd98b00e825d40') in 0.521690 seconds
+  Import took 0.534715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.351180 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.325 ms
+	Integration:            0.376 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       23.106 ms
+	Total Operation Time:   24.811 ms
+ -> (target hash: '58f27df5c04a552933d2a51ff7dddb4b') in 0.070258 seconds
+  Import took 0.082354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.927086 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.256 ms
+	Integration:            0.385 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       38.505 ms
+	Total Operation Time:   40.148 ms
+ -> (target hash: 'fb3c4fbd9203b16bd9e8e021fe617295') in 0.087598 seconds
+  Import took 0.219032 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013716 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.283 seconds
+Registering precompiled user dll's ...
+Registered in 0.275653 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6097.
+Total: 5.358700 ms (FindLiveObjects: 0.630600 ms CreateObjectMapping: 0.466400 ms MarkObjects: 4.046400 ms  DeleteObjects: 0.213800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.407218 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.936 ms
+	Integration:            0.794 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       26.977 ms
+	Total Operation Time:   29.731 ms
+ -> (target hash: '54f84be9e6afaa9c47ee33b5f1dc09a3') in 0.494035 seconds
+  Import took 0.505845 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014423 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.425 seconds
+Registering precompiled user dll's ...
+Registered in 0.303091 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 162ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.8 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6105.
+Total: 4.731800 ms (FindLiveObjects: 0.523600 ms CreateObjectMapping: 0.394800 ms MarkObjects: 3.594000 ms  DeleteObjects: 0.218900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.041501 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.796 ms
+	Integration:            0.815 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       26.876 ms
+	Total Operation Time:   29.491 ms
+ -> (target hash: '1285ff33dd9c07274da1bd857da32d1b') in 0.524321 seconds
+  Import took 0.537726 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013147 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 171ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Registering precompiled user dll's ...
+Registered in 0.413162 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.438 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6113.
+Total: 4.599200 ms (FindLiveObjects: 0.561600 ms CreateObjectMapping: 0.383000 ms MarkObjects: 3.471500 ms  DeleteObjects: 0.181900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.600475 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.642 ms
+	Integration:            0.881 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       34.877 ms
+	Total Operation Time:   37.404 ms
+ -> (target hash: '9f7bb28031f96f4d264f32ba838b8b54') in 0.513016 seconds
+  Import took 0.525810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.770098 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.074 ms
+	Integration:            0.305 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       36.822 ms
+	Total Operation Time:   38.203 ms
+ -> (target hash: 'b516263a2a26bacdf1ecdc20066642b6') in 0.083266 seconds
+  Import took 0.094980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.254862 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.099 ms
+	Integration:            0.296 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       24.834 ms
+	Total Operation Time:   26.232 ms
+ -> (target hash: 'eb7da4ec182836f8e6407665fd91defb') in 0.069185 seconds
+  Import took 0.081426 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013570 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 174ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.699 seconds
+Registering precompiled user dll's ...
+Registered in 0.291274 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 164ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6121.
+Total: 4.537000 ms (FindLiveObjects: 0.588500 ms CreateObjectMapping: 0.362000 ms MarkObjects: 3.399700 ms  DeleteObjects: 0.185200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 647.064255 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.634 ms
+	Integration:            0.942 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       29.128 ms
+	Total Operation Time:   31.707 ms
+ -> (target hash: '769df063d69522f515acabd17beb7c23') in 0.507522 seconds
+  Import took 0.520128 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013645 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 168ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.749 seconds
+Registering precompiled user dll's ...
+Registered in 0.267878 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6129.
+Total: 5.661300 ms (FindLiveObjects: 0.920600 ms CreateObjectMapping: 0.383100 ms MarkObjects: 4.179300 ms  DeleteObjects: 0.177200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.268958 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.775 ms
+	Integration:            1.061 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       36.642 ms
+	Total Operation Time:   39.481 ms
+ -> (target hash: 'b71af417f866d6686fe5c66b64d89fd6') in 0.507504 seconds
+  Import took 0.520167 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013137 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 154ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.557 seconds
+Registering precompiled user dll's ...
+Registered in 0.524251 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 149ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6137.
+Total: 5.027300 ms (FindLiveObjects: 0.575400 ms CreateObjectMapping: 0.441200 ms MarkObjects: 3.803700 ms  DeleteObjects: 0.205900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1903.884811 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.088 ms
+	Integration:            2.536 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       26.607 ms
+	Total Operation Time:   31.234 ms
+ -> (target hash: '4decc73238d93039db3faf8708ea4113') in 0.537013 seconds
+  Import took 0.550241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.707631 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.396 ms
+	Integration:            0.285 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       37.383 ms
+	Total Operation Time:   39.068 ms
+ -> (target hash: 'e0a32f8f006bf3cfa9484ca9a5e33963') in 0.086397 seconds
+  Import took 0.215879 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013219 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.100 seconds
+Registering precompiled user dll's ...
+Registered in 0.300382 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.7 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6145.
+Total: 4.503800 ms (FindLiveObjects: 0.769500 ms CreateObjectMapping: 0.376200 ms MarkObjects: 3.180500 ms  DeleteObjects: 0.176500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.127149 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.869 ms
+	Integration:            1.296 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       33.727 ms
+	Total Operation Time:   36.894 ms
+ -> (target hash: 'adda0c3cd71d08a99e6e13f871f49d9f') in 0.516205 seconds
+  Import took 0.634343 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013346 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 155ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.046 seconds
+Registering precompiled user dll's ...
+Registered in 0.269445 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.5 MB.
+System memory in use after: 138.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6153.
+Total: 5.650100 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.332900 ms MarkObjects: 4.440500 ms  DeleteObjects: 0.204800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.202030 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.977 ms
+	Integration:            1.102 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       27.669 ms
+	Total Operation Time:   30.753 ms
+ -> (target hash: '7e8d12d4133f8cbfb2c058f6c32ca455') in 0.490927 seconds
+  Import took 0.626551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786510 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.519 ms
+	Integration:            0.326 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       25.722 ms
+	Total Operation Time:   27.571 ms
+ -> (target hash: '0cc618499edbeccc995cc3c55d039168') in 0.074449 seconds
+  Import took 0.086678 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002725 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 169ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Registering precompiled user dll's ...
+Registered in 0.273107 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.197 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6161.
+Total: 5.643800 ms (FindLiveObjects: 0.617800 ms CreateObjectMapping: 0.405200 ms MarkObjects: 4.458700 ms  DeleteObjects: 0.161700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.791808 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.899 ms
+	Integration:            0.735 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       35.931 ms
+	Total Operation Time:   38.568 ms
+ -> (target hash: '4c9d48f53684c9e25ae3d32a07f87605') in 0.489777 seconds
+  Import took 0.560099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1467.649134 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.946 ms
+	Integration:            1.947 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       29.723 ms
+	Total Operation Time:   33.635 ms
+ -> (target hash: '2d1e859c1d700f967156a8b157a4501c') in 0.087919 seconds
+  Import took 0.100982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.270838 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.712 ms
+	Integration:            0.347 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       33.568 ms
+	Total Operation Time:   35.630 ms
+ -> (target hash: '32badbcc233289dc527967f78e8f0d4c') in 0.082361 seconds
+  Import took 0.126892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.492663 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.694 ms
+	Integration:            0.421 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       36.591 ms
+	Total Operation Time:   38.710 ms
+ -> (target hash: '4c6d6003a04ac3b26b2d98d8e8597569') in 0.084578 seconds
+  Import took 0.096132 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013504 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 174ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.386 seconds
+Registering precompiled user dll's ...
+Registered in 0.295155 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 168ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.302 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6170.
+Total: 4.919600 ms (FindLiveObjects: 0.523800 ms CreateObjectMapping: 0.323600 ms MarkObjects: 3.911400 ms  DeleteObjects: 0.159800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014553 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.495 seconds
+Registering precompiled user dll's ...
+Registered in 0.291535 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 154ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.432 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6178.
+Total: 6.265500 ms (FindLiveObjects: 0.934600 ms CreateObjectMapping: 0.566200 ms MarkObjects: 4.584200 ms  DeleteObjects: 0.179200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1063.567236 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.323 ms
+	Integration:            1.614 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       27.574 ms
+	Total Operation Time:   31.515 ms
+ -> (target hash: '2cbb04c68919409c682c086baa806579') in 0.513266 seconds
+  Import took 0.525752 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013127 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 127ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.150 seconds
+Registering precompiled user dll's ...
+Registered in 0.245366 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 156ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.412 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.6 MB.
+System memory in use after: 143.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6186.
+Total: 5.069900 ms (FindLiveObjects: 0.686900 ms CreateObjectMapping: 0.470200 ms MarkObjects: 3.741900 ms  DeleteObjects: 0.170200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.632440 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.217 ms
+	Integration:            0.771 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       25.743 ms
+	Total Operation Time:   28.734 ms
+ -> (target hash: '6d23f75784c01f5fb7e0ed653dd51f6a') in 0.581742 seconds
+  Import took 0.594624 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013406 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 158ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.771 seconds
+Registering precompiled user dll's ...
+Registered in 0.286865 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.4 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6194.
+Total: 5.004400 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.314300 ms MarkObjects: 3.882400 ms  DeleteObjects: 0.243700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013919 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.096 seconds
+Registering precompiled user dll's ...
+Registered in 0.290047 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.4 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6202.
+Total: 5.020200 ms (FindLiveObjects: 0.674100 ms CreateObjectMapping: 0.377100 ms MarkObjects: 3.751800 ms  DeleteObjects: 0.215900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4922.726440 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            39.671 ms
+	Integration:            1.226 ms
+	Integration of assets:  11.397 ms
+	Thread Wait Time:       35.059 ms
+	Total Operation Time:   87.353 ms
+ -> (target hash: 'c2370019637b922ad6474e31574f8beb') in 0.611216 seconds
+  Import took 0.639267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.813723 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            18.808 ms
+	Integration:            0.514 ms
+	Integration of assets:  1.262 ms
+	Thread Wait Time:       25.622 ms
+	Total Operation Time:   46.205 ms
+ -> (target hash: '6f9b2a9f3c2d9939c04c88de127e0ff4') in 0.102157 seconds
+  Import took 0.117553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860611 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            18.447 ms
+	Integration:            0.534 ms
+	Integration of assets:  0.853 ms
+	Thread Wait Time:       25.104 ms
+	Total Operation Time:   44.939 ms
+ -> (target hash: 'e471b44d55b02e5d2a7ed6aa6446a628') in 0.100360 seconds
+  Import took 0.112437 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013514 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.913 seconds
+Registering precompiled user dll's ...
+Registered in 0.276496 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 169ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.867 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.4 MB.
+System memory in use after: 148.0 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6210.
+Total: 5.339400 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 0.355200 ms MarkObjects: 4.059800 ms  DeleteObjects: 0.400500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.417531 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.749 ms
+	Integration:            0.736 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       23.004 ms
+	Total Operation Time:   26.491 ms
+ -> (target hash: 'c1a039ee9039129036d58da287798826') in 0.423014 seconds
+  Import took 0.446211 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013618 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 178ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.243 seconds
+Registering precompiled user dll's ...
+Registered in 0.313700 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.2 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6218.
+Total: 4.970300 ms (FindLiveObjects: 0.546000 ms CreateObjectMapping: 0.315000 ms MarkObjects: 3.734800 ms  DeleteObjects: 0.373300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013030 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 141ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.741 seconds
+Registering precompiled user dll's ...
+Registered in 0.241044 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 155ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.2 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6226.
+Total: 6.435100 ms (FindLiveObjects: 0.662600 ms CreateObjectMapping: 0.521900 ms MarkObjects: 4.878400 ms  DeleteObjects: 0.370800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013354 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 138ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.763 seconds
+Registering precompiled user dll's ...
+Registered in 0.244237 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 164ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.100 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.3 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6234.
+Total: 4.827600 ms (FindLiveObjects: 0.590000 ms CreateObjectMapping: 0.367000 ms MarkObjects: 3.485400 ms  DeleteObjects: 0.384600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.015170 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 108.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.708 seconds
+Registering precompiled user dll's ...
+Registered in 0.317010 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 161ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.570 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.3 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6242.
+Total: 5.510400 ms (FindLiveObjects: 0.752400 ms CreateObjectMapping: 0.577500 ms MarkObjects: 3.780400 ms  DeleteObjects: 0.399600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1976.187833 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.464 ms
+	Integration:            1.141 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       32.140 ms
+	Total Operation Time:   35.749 ms
+ -> (target hash: '155e8fcbabdd34fa7d4ffda2aa12b4c9') in 0.541260 seconds
+  Import took 0.553073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452917 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.823 ms
+	Integration:            0.314 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       25.162 ms
+	Total Operation Time:   27.301 ms
+ -> (target hash: '6a928538abb1900dcf019c41d93825a0') in 0.073966 seconds
+  Import took 0.086304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.937534 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.724 ms
+	Integration:            0.315 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       24.147 ms
+	Total Operation Time:   26.189 ms
+ -> (target hash: '1ab7a38e409480b33508a2fc5e768d8f') in 0.074340 seconds
+  Import took 0.106107 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013335 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 128ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.269 seconds
+Registering precompiled user dll's ...
+Registered in 0.375821 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 137ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.0 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6250.
+Total: 13.205200 ms (FindLiveObjects: 1.470800 ms CreateObjectMapping: 0.990200 ms MarkObjects: 10.346600 ms  DeleteObjects: 0.395000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.784228 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.915 ms
+	Integration:            0.699 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       30.344 ms
+	Total Operation Time:   32.960 ms
+ -> (target hash: '927777c9d1973345bdc6cb9680abb2a4') in 0.512514 seconds
+  Import took 0.522081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.752727 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.739 ms
+	Integration:            0.374 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       38.072 ms
+	Total Operation Time:   40.189 ms
+ -> (target hash: '1f813c793bd77833b4a1c2aaa999d670') in 0.092952 seconds
+  Import took 0.105251 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013285 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 146ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.217 seconds
+Registering precompiled user dll's ...
+Registered in 0.248483 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 164ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.540 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6258.
+Total: 5.816000 ms (FindLiveObjects: 0.703400 ms CreateObjectMapping: 0.464700 ms MarkObjects: 3.962300 ms  DeleteObjects: 0.684500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 543.647429 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.408 ms
+	Integration:            0.850 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       26.160 ms
+	Total Operation Time:   29.422 ms
+ -> (target hash: '4337a33384a177a87723a9ddc04b1404') in 0.503547 seconds
+  Import took 0.549988 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013437 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.959 seconds
+Registering precompiled user dll's ...
+Registered in 0.279351 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 144ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6266.
+Total: 5.708500 ms (FindLiveObjects: 0.739500 ms CreateObjectMapping: 0.420000 ms MarkObjects: 4.140200 ms  DeleteObjects: 0.407800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.031637 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.091 ms
+	Integration:            0.806 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       29.328 ms
+	Total Operation Time:   32.228 ms
+ -> (target hash: 'a009275a23516213f353a86b36e17d29') in 0.427171 seconds
+  Import took 0.555047 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012978 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 143ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.428 seconds
+Registering precompiled user dll's ...
+Registered in 0.245848 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 143ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6274.
+Total: 5.230400 ms (FindLiveObjects: 0.660000 ms CreateObjectMapping: 0.283800 ms MarkObjects: 3.918000 ms  DeleteObjects: 0.367700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.105548 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.435 ms
+	Integration:            0.862 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       27.188 ms
+	Total Operation Time:   30.489 ms
+ -> (target hash: 'c61da3641951b211a78fff99a1d908b3') in 0.532497 seconds
+  Import took 0.545615 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013414 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 175ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.303 seconds
+Registering precompiled user dll's ...
+Registered in 0.310465 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.162 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 154.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6282.
+Total: 5.326900 ms (FindLiveObjects: 0.635800 ms CreateObjectMapping: 0.443400 ms MarkObjects: 3.779300 ms  DeleteObjects: 0.467600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.005432 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.340 ms
+	Integration:            1.035 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       34.660 ms
+	Total Operation Time:   38.039 ms
+ -> (target hash: '1e116ab894962bcdf05f4cae86603dc7') in 0.548232 seconds
+  Import took 0.560592 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013947 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 176ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.339 seconds
+Registering precompiled user dll's ...
+Registered in 0.292289 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.179 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6290.
+Total: 5.815500 ms (FindLiveObjects: 0.604000 ms CreateObjectMapping: 0.363300 ms MarkObjects: 4.013600 ms  DeleteObjects: 0.833200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013711 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 148ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.861 seconds
+Registering precompiled user dll's ...
+Registered in 0.272112 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 145ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6298.
+Total: 5.053000 ms (FindLiveObjects: 0.678900 ms CreateObjectMapping: 0.289000 ms MarkObjects: 3.583400 ms  DeleteObjects: 0.500600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013028 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 143ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.786 seconds
+Registering precompiled user dll's ...
+Registered in 0.271105 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 143ms
+Mono: successfully reloaded assembly
+- Completed reload, in  4.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6306.
+Total: 5.867500 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.386300 ms MarkObjects: 4.497900 ms  DeleteObjects: 0.446200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014258 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.708 seconds
+Registering precompiled user dll's ...
+Registered in 0.303010 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 172ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.626 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6314.
+Total: 5.006300 ms (FindLiveObjects: 0.614800 ms CreateObjectMapping: 0.361300 ms MarkObjects: 3.592000 ms  DeleteObjects: 0.437200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012991 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 146ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.066 seconds
+Registering precompiled user dll's ...
+Registered in 0.253842 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 154ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6322.
+Total: 5.919300 ms (FindLiveObjects: 0.723400 ms CreateObjectMapping: 0.324300 ms MarkObjects: 4.399100 ms  DeleteObjects: 0.471400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003274 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 145ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.214 seconds
+Registering precompiled user dll's ...
+Registered in 0.400098 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 142ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.162 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6330.
+Total: 14.972100 ms (FindLiveObjects: 1.478200 ms CreateObjectMapping: 0.989500 ms MarkObjects: 11.243900 ms  DeleteObjects: 1.259000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013273 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 131ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.235 seconds
+Registering precompiled user dll's ...
+Registered in 0.245221 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 141ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6338.
+Total: 5.292000 ms (FindLiveObjects: 0.754900 ms CreateObjectMapping: 0.282100 ms MarkObjects: 3.816600 ms  DeleteObjects: 0.437300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013159 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 129ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.226 seconds
+Registering precompiled user dll's ...
+Registered in 0.244874 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 135ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6346.
+Total: 4.350500 ms (FindLiveObjects: 0.470300 ms CreateObjectMapping: 0.235000 ms MarkObjects: 3.288700 ms  DeleteObjects: 0.356200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002274 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 171ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.974 seconds
+Registering precompiled user dll's ...
+Registered in 0.277689 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 163ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.046 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6354.
+Total: 5.118800 ms (FindLiveObjects: 0.632300 ms CreateObjectMapping: 0.284700 ms MarkObjects: 3.751200 ms  DeleteObjects: 0.449800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012672 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 145ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.647 seconds
+Registering precompiled user dll's ...
+Registered in 0.255941 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 144ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.561 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6362.
+Total: 4.322300 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.246200 ms MarkObjects: 3.200800 ms  DeleteObjects: 0.399300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013748 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 170ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.439 seconds
+Registering precompiled user dll's ...
+Registered in 0.250990 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 173ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6370.
+Total: 5.251300 ms (FindLiveObjects: 0.593900 ms CreateObjectMapping: 0.591500 ms MarkObjects: 3.659400 ms  DeleteObjects: 0.405500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6852.575664 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.451 ms
+	Integration:            1.150 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       27.620 ms
+	Total Operation Time:   31.224 ms
+ -> (target hash: 'f0444a401283b8839dbaeafe3fa5670e') in 0.496807 seconds
+  Import took 0.614495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.866955 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.844 ms
+	Integration:            0.370 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       37.376 ms
+	Total Operation Time:   39.593 ms
+ -> (target hash: '933842922c885f752f244774d0c0e230') in 0.094514 seconds
+  Import took 0.219895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.582031 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.672 ms
+	Integration:            0.313 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       26.712 ms
+	Total Operation Time:   28.700 ms
+ -> (target hash: '043f4f59b6fe62a8960a55281cfcd052') in 0.074075 seconds
+  Import took 0.164044 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013291 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 158ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.692 seconds
+Registering precompiled user dll's ...
+Registered in 0.310723 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 162ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6378.
+Total: 5.077400 ms (FindLiveObjects: 0.601700 ms CreateObjectMapping: 0.487300 ms MarkObjects: 3.465100 ms  DeleteObjects: 0.522700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.725796 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.780 ms
+	Integration:            1.058 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       30.482 ms
+	Total Operation Time:   34.324 ms
+ -> (target hash: '5c454b54fccd58e5bcda5a128bfc9ce3') in 0.528651 seconds
+  Import took 0.646409 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013839 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 166ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.964 seconds
+Registering precompiled user dll's ...
+Registered in 0.249077 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 165ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.0 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6386.
+Total: 6.073600 ms (FindLiveObjects: 0.648800 ms CreateObjectMapping: 0.528800 ms MarkObjects: 4.443700 ms  DeleteObjects: 0.450400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013795 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 168ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.840 seconds
+Registering precompiled user dll's ...
+Registered in 0.285811 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 176ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.0 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6394.
+Total: 5.475600 ms (FindLiveObjects: 0.660600 ms CreateObjectMapping: 0.400400 ms MarkObjects: 3.931000 ms  DeleteObjects: 0.482400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 728.022004 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            2.222 ms
+	Integration:            0.830 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       27.684 ms
+	Total Operation Time:   30.741 ms
+ -> (target hash: '3dadaf1ebafaa84d67c69013851a325a') in 0.528683 seconds
+  Import took 0.728592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.522473 seconds.
+  path: Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings
+  artifactKey: Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/8efa09e5934fe71b54909bf085b81e7d.sceneWithBuildSettings using Guid(8efa09e5934fe71b54909bf085b81e7d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/New Scene/New Sub Scene.unity additively'
+Loaded scene 'Assets/Scenes/New Scene/New Sub Scene.unity'
+	Deserialize:            1.878 ms
+	Integration:            0.304 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       26.883 ms
+	Total Operation Time:   29.067 ms
+ -> (target hash: '3617098dba515280043d10f8286ca9ae') in 0.077335 seconds
+  Import took 0.103798 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013312 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 139ms
+Mono: successfully reloaded assembly
+- Completed reload, in  6.163 seconds
+Registering precompiled user dll's ...
+Registered in 0.390259 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 137ms
+Mono: successfully reloaded assembly
+- Completed reload, in  5.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.0 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6402.
+Total: 4.294500 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.239200 ms MarkObjects: 3.068500 ms  DeleteObjects: 0.421400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013807 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 174ms
+Mono: successfully reloaded assembly
+- Completed reload, in  7.274 seconds
+Registering precompiled user dll's ...
+Registered in 0.319907 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 176ms
+Mono: successfully reloaded assembly
+- Completed reload, in  7.192 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6410.
+Total: 5.311700 ms (FindLiveObjects: 0.611800 ms CreateObjectMapping: 0.454600 ms MarkObjects: 3.785500 ms  DeleteObjects: 0.458200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
