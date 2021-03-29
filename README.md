@@ -4,7 +4,7 @@ Unity DOTS reference project demonstrating a visual bug that occurs when entitie
 The bug occurs when entities in a subscene are disabled when the subscene loads, and are enabled over time.
 When doing so, entities of the same archetype seem to have an issue where they use the bounding box of the first entity of that archetype, resulting in entities becoming invisible when the firstly enabled entity of that archetype is out of view. This issue does, for some reason, not apply to entities of the archetype of the very first entity enabled in the subscene.
 
-![preview](https://user-images.githubusercontent.com/31402211/112812789-cc6ded00-907d-11eb-8a0c-f9c246ee124e.mp4)
+[![Click to see the video](https://user-images.githubusercontent.com/31402211/112824682-21fcc680-908b-11eb-9258-990cfbb2678e.png)](https://user-images.githubusercontent.com/31402211/112812789-cc6ded00-907d-11eb-8a0c-f9c246ee124e.mp4)
 
 
 ## Editor and package versions
